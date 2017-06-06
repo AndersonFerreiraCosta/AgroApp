@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:textSize="25dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:hint="Nome"
+        android:ems="15"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/editEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Endereço"
+        android:inputType="text"
+        android:ems="15"
+/>
+    <EditText
+        android:id="@+id/editTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:ems="15"
+
+        />
+    <EditText
+        android:id="@+id/editEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:ems="15"
+     />
+
+    <EditText
+        android:id="@+id/editSenha2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:hint="Senha"
+        android:ems="15"
+       />
+
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao"
+        android:text="Cadastrar"
+        android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao"
+            android:text="Cancelar"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+
+</LinearLayout>

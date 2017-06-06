@@ -1,0 +1,32 @@
+
+
+
+<resources>
+    <string name="app_name">AgroApp</string>
+
+<string name="nome_cliente">Nome do Cliente</string>
+<string name="telefone_cliente">Telefone do Cliente</string>
+<string name="celular_cliente">Celular do Cliente</string>
+<string name="email_cliente">E-Mail do Cliente</string>
+<string name="site_cliente">Site do Cliente</string>
+<string name="endereco_cliente">Endereço do Cliente</string>
+<string name="save_cliente">Salvar Dados do Cliente</string>
+<string name="add_cliente">Adicionar Cliente</string>
+
+<string name="nome">Nome</string>
+<string name="telefone">Telefone</string>
+<string name="celular">Celular</string>
+<string name="email">E-Mail</string>
+<string name="site">Site</string>
+<string name="endereco">Endereço</string>
+<string name="regiao">Região</string>
+
+<string name="ligarFixo">Ligar para Fixo</string>
+<string name="ligarCelular">Ligar para Celular</string>
+<string name="enviarSMS">Enviar SMS</string>
+<string name="acharNoMapa">Achar no Mapa</string>
+<string name="navegarSite">Navegar no Site</string>
+<string name="enviarEmail">Enviar E-mail</string>
+<string name="deletar">Deletar</string>
+
+</resources>

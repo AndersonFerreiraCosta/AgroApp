@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre um produto"
+        android:textSize="25dp"
+        android:padding="10dp">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/quantidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Quantidade"
+        android:ems="15"
+
+        />
+    <EditText
+        android:id="@+id/unidade_medida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/modelo_edit"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Unidade de medida"
+        android:ems="15"
+        />
+
+
+
+    <Button
+        android:id="@+id/cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao"
+        android:text="Cadastrar"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao"
+        android:text="Cancelar"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+
+
+</LinearLayout>
